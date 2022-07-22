@@ -1,7 +1,10 @@
 <template>
-  <Tutorial/>
+  <Home />
 </template>
 
 <script>
-export default {}
+import Home from '../components/views/Home.vue'
+export default {
+  components: { Home },
+}
 </script>
