@@ -1,11 +1,10 @@
 <template>
   <header>
-    <h1>header</h1>
-    <nav>
-      <ul>
-        <li><nuxt-link to="/">Home</nuxt-link></li>
-        <li><nuxt-link to="/Menu">Menu</nuxt-link></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid justify-content-start">
+        <NuxtLink class="navbar-brand NuxtLink" to="/">Home</NuxtLink>
+        <NuxtLink class="navbar-brand NuxtLink" to="/Menu">Menu</NuxtLink>
+      </div>
     </nav>
   </header>
 </template>
