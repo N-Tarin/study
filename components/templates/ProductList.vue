@@ -1,5 +1,9 @@
 <template>
-  <ProductCard />
+  <div class="container">
+    <div class="row">
+      <ProductCard />
+    </div>
+  </div>
 </template>
 
 <script>
